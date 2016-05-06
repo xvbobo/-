@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  WaterCollectionViewCell.h
 //  WarterFallProject
 //
 //  Created by 许菠菠 on 16/5/6.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
-
+@interface WaterCollectionViewCell : UICollectionViewCell
+@property (nonatomic,strong) UILabel * titleLabel;
 @end
-
